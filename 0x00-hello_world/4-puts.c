@@ -1,10 +1,20 @@
 #include <stdio.h>
-int main()
-{
-    //string initialisation
-    char Mystr1[50] = "Programming is like building a multilingual puzzle";
+#include <string.h>
 
-    puts(Mystr1); //not specifically adding a new line
+/**
+ * main - Entry point
+ *
+ *string initialisation
+ *
+ * writing to stdout
+ *
+ * return always 0 (Success)
+*/
+int main(void)
+{
+     char str1[] = "Programming is like building a multilingual puzzle";
+
+     puts(str1);
 
     return 0;
 }
