@@ -5,15 +5,13 @@
  *
  *string initializing 
  *
- *writing to stderr and stdout
+ *writing to stdout
  *
  * return always 0 (Success)
 */
 int main(void)
 {	
-char str1[60] = "\"programming is like building a multilingual puzzle";
-char str2[10] = "lost";
-puts(stdout,str1);
-puts(stderr,str2);
+char str1[60] = "\"programming is like building a multilingual puzzle"
+puts(str1);
 return (0);
 }
